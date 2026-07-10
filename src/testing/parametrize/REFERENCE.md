@@ -70,7 +70,7 @@ Parametrizes a test function with multiple scenarios.
 * STDLIB_TESTING_PARAMETRIZE_SETTING_FIXTURE_COMMAND_PREFIX string keyword: The prefix for fixture commands (default="@fixture ").
 * STDLIB_TESTING_PARAMETRIZE_SETTING_SHOW_ORIGINAL_TEST_NAMES_BOOLEAN string keyword: Whether to show original test names (default="0").
 * STDLIB_TESTING_PARAMETRIZE_SETTING_VARIANT_TAG string keyword: The parameter tag in the test function name (default="@vary").
-* STDLIB_TESTING_THEME_PARAMETRIZE_HIGHLIGHT string global: A theme colour used to highlight informational messages (default="LIGHT_BLUE").
+* STDLIB_TESTING_THEME_PARAMETRIZE_HIGHLIGHT string global: The colour to use for highlighting informational messages during parametrization (default="LIGHT_BLUE").
 
 #### Arguments
 

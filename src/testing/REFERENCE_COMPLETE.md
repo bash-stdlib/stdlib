@@ -54,6 +54,7 @@
 * [@parametrize.apply](#parametrizeapply)
 * [@parametrize.compose](#parametrizecompose)
 * [@parametrize](#parametrize)
+* [_testing.setting.state.theme](#_testingsettingstatetheme)
 
 ### assert_array_equals
 
@@ -537,7 +538,7 @@ Captures the stdout of a command (raw).
 ### _testing.fixtures.debug.diff
 
 Prints a diff between two values for debugging.
-* STDLIB_TESTING_THEME_DEBUG_FIXTURE string global: The colour to use for the debug output (default="GREY").
+* STDLIB_TESTING_THEME_DEBUG_FIXTURE string global: The colour to use for for debug output (default="GREY").
 
 #### Arguments
 
@@ -592,7 +593,7 @@ Generates a random alphanumeric name.
 ### _testing.load
 
 Loads a module with error support.
-* STDLIB_TESTING_THEME_LOAD string global: The colour to use for the message (default="GREY").
+* STDLIB_TESTING_THEME_LOAD string global: The colour to use for module loading messages (default="GREY").
 
 #### Arguments
 
@@ -849,7 +850,7 @@ Parametrizes a test function with multiple scenarios.
 * STDLIB_TESTING_PARAMETRIZE_SETTING_FIXTURE_COMMAND_PREFIX string keyword: The prefix for fixture commands (default="@fixture ").
 * STDLIB_TESTING_PARAMETRIZE_SETTING_SHOW_ORIGINAL_TEST_NAMES_BOOLEAN string keyword: Whether to show original test names (default="0").
 * STDLIB_TESTING_PARAMETRIZE_SETTING_VARIANT_TAG string keyword: The parameter tag in the test function name (default="@vary").
-* STDLIB_TESTING_THEME_PARAMETRIZE_HIGHLIGHT string global: A theme colour used to highlight informational messages (default="LIGHT_BLUE").
+* STDLIB_TESTING_THEME_PARAMETRIZE_HIGHLIGHT string global: The colour to use for highlighting informational messages during parametrization (default="LIGHT_BLUE").
 
 #### Arguments
 
@@ -875,3 +876,20 @@ Parametrizes a test function with multiple scenarios.
 #### Output on stderr
 
 * The error message if the operation fails.
+
+### _testing.setting.state.theme
+
+Sets the default testing colours.
+
+_Function has no arguments._
+
+#### Variables set
+
+* **STDLIB_TESTING_THEME_DEBUG_FIXTURE** (string): The colour to use for for debug output.
+* **STDLIB_TESTING_THEME_LOAD** (string): The colour to use for module loading messages.
+* **STDLIB_TESTING_THEME_PARAMETRIZE_HIGHLIGHT** (string): The colour to use for highlighting informational messages during parametrization.
+* **STDLIB_TESTING_THEME_PARAMETRIZE_ORIGINAL_TEST_NAMES** (string): The colour to use for displaying original test names during parametrization.
+
+#### Exit codes
+
+* **0**: If the operation succeeded.

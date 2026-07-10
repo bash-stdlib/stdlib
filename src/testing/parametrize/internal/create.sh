@@ -43,7 +43,7 @@ builtin set -eo pipefail
 # @description Creates a test function variant for a specific scenario.
 #   * STDLIB_TESTING_PARAMETRIZE_SETTING_DEBUG_BOOLEAN string keyword: Whether to show debug information (default="0").
 #   * STDLIB_TESTING_PARAMETRIZE_SETTING_SHOW_ORIGINAL_TEST_NAMES_BOOLEAN string keyword: Whether to show original test names (default="0").
-#   * STDLIB_TESTING_THEME_PARAMETRIZE_ORIGINAL_TEST_NAMES string global: The colour for original test names (default="GREY").
+#   * STDLIB_TESTING_THEME_PARAMETRIZE_ORIGINAL_TEST_NAMES string global: The colour to use for displaying original test names during parametrization (default="GREY").
 # @arg $1 string The test function variant name to create.
 # @arg $2 string The original test function name.
 # @arg $3 string The original test function reference.

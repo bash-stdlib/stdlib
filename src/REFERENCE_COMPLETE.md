@@ -2144,6 +2144,14 @@ Loads the theme colours.
 
 _Function has no arguments._
 
+#### Variables set
+
+* **STDLIB_THEME_LOGGER_ERROR** (string): The colour to use for error messages.
+* **STDLIB_THEME_LOGGER_INFO** (string): The colour to use for info messages.
+* **STDLIB_THEME_LOGGER_NOTICE** (string): The colour to use for notice messages.
+* **STDLIB_THEME_LOGGER_SUCCESS** (string): The colour to use for success messages.
+* **STDLIB_THEME_LOGGER_WARNING** (string): The colour to use for warning messages.
+
 #### Exit codes
 
 * **0**: If the operation succeeded.

@@ -17,16 +17,16 @@ builtin source "${STDLIB_DIRECTORY}/testing/fixtures/__lib__.sh"
 builtin source "${STDLIB_DIRECTORY}/testing/gettext.sh"
 # shellcheck source=src/testing/load.sh
 builtin source "${STDLIB_DIRECTORY}/testing/load.sh"
+# shellcheck source=src/testing/message.sh
+builtin source "${STDLIB_DIRECTORY}/testing/message.sh"
 # shellcheck source=src/testing/mock/__lib__.sh
 builtin source "${STDLIB_DIRECTORY}/testing/mock/__lib__.sh"
 # shellcheck source=src/testing/parametrize/__lib__.sh
 builtin source "${STDLIB_DIRECTORY}/testing/parametrize/__lib__.sh"
 # shellcheck source=src/testing/protect.sh
 builtin source "${STDLIB_DIRECTORY}/testing/protect.sh"
-# shellcheck source=src/testing/message.sh
-builtin source "${STDLIB_DIRECTORY}/testing/message.sh"
-# shellcheck source=src/testing/theme.sh
-builtin source "${STDLIB_DIRECTORY}/testing/theme.sh"
+# shellcheck source=src/testing/setting/__lib__.sh
+builtin source "${STDLIB_DIRECTORY}/testing/setting/__lib__.sh"
 
 # compile the stdlib testing mock
 _mock.__internal.compile

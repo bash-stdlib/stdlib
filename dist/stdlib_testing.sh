@@ -1759,6 +1759,14 @@ _testing.parametrize.__message.get ()
     builtin echo -n "${message}"
 }
 
+_testing.setting.state.theme ()
+{
+    STDLIB_TESTING_THEME_DEBUG_FIXTURE="GREY";
+    STDLIB_TESTING_THEME_LOAD="GREY";
+    STDLIB_TESTING_THEME_PARAMETRIZE_HIGHLIGHT="LIGHT_BLUE";
+    STDLIB_TESTING_THEME_PARAMETRIZE_ORIGINAL_TEST_NAMES="GREY"
+}
+
 assert_array_equals ()
 {
     builtin local _stdlib_assertion_output;

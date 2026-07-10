@@ -1,7 +1,7 @@
 #!/bin/bash
 # shellcheck disable=SC2034
 
-# stdlib colour state enabled library
+# stdlib setting state enabled library
 
 builtin set -eo pipefail
 

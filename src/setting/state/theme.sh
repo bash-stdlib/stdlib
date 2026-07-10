@@ -1,7 +1,7 @@
 #!/bin/bash
 # shellcheck disable=SC2034
 
-# stdlib colour theme library
+# stdlib setting theme library
 
 builtin set -eo pipefail
 
